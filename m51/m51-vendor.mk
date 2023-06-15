@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib/camera/components/com.wrapper.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.wrapper.stats.pdlib.so \
     vendor/samsung/m51/proprietary/vendor/lib/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/libdepthmapwrapper.so \
     vendor/samsung/m51/proprietary/vendor/lib/camera/components/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/libmmcamera_cac3.so \
+    vendor/samsung/m51/proprietary/vendor/lib/hw/audio.primary.sm6150.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sm6150.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.n24s64b_imx616.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.gc5035.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.sensor.gc5035_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.gc5035_macro.so \
@@ -93,4 +94,39 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_gc5035_macro.bin \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.tuned.lsi_s5k3l6.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.lsi_s5k3l6.bin \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx616.bin \
-    vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx682.bin
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx682.bin \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.samsung.node.bayercheck.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.bayercheck.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.samsung.node.bayerfuse.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.bayerfuse.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.samsung.node.capture_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.capture_bokeh.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.samsung.node.capture_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.capture_fusion.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.samsung.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.realtimebokeh.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.samsung.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.remosaic.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.samsung.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.samsung.node.smooth_transition.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.wrapper.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.wrapper.stats.aec.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.wrapper.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.wrapper.stats.af.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.wrapper.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.wrapper.stats.awb.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.wrapper.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.wrapper.stats.pdlib.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/camera/components/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libmmcamera_cac3.so
