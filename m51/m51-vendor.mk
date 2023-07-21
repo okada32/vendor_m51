@@ -114,6 +114,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/w_dual_calibration.bin \
     vendor/samsung/m51/proprietary/vendor/lib/hw/audio.primary.sm6150.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sm6150.so \
     vendor/samsung/m51/proprietary/vendor/lib/hw/com.samsung.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.samsung.chi.override.so \
+    vendor/samsung/m51/proprietary/vendor/lib/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.default.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
+    vendor/samsung/m51/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/m51/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.n24s64b_imx616.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.gc5035.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/com.samsung.sensor.gc5035_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.sensor.gc5035_macro.so \
@@ -166,4 +174,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/components/com.wrapper.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.wrapper.stats.pdlib.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
     vendor/samsung/m51/proprietary/vendor/lib64/camera/components/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libmmcamera_cac3.so \
-    vendor/samsung/m51/proprietary/vendor/lib64/hw/com.samsung.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.samsung.chi.override.so
+    vendor/samsung/m51/proprietary/vendor/lib64/hw/com.samsung.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.samsung.chi.override.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
+    vendor/samsung/m51/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
