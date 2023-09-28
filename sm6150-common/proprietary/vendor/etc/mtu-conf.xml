@@ -26,8 +26,7 @@ mtuTableEntry attributes:
            SRIL_RAT_GEN_2G = 1,
            SRIL_RAT_GEN_3G = 2,
            SRIL_RAT_GEN_4G = 3,
-           SRIL_RAT_GEN_WIRELESS = 4,
-           SRIL_RAT_GEN_5G = 5
+           SRIL_RAT_GEN_WIRELESS = 4
 	proto:
 	       SRIL_PROTO_INVALID = -1,
               SRIL_PROTO_UNKNOWN = 0,
@@ -106,9 +105,6 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="21407" mtu="1440" profile="14"/>
     <mtuTableEntry numeric="21407" mtu="1280" rat="4"/>
 
-<!-- Elisa Estonia -->
-    <mtuTableEntry numeric="24802" mtu="1280" profile="2"/>
-
 <!-- Digi Mobil Hungary -->
     <mtuTableEntry numeric="21603" mtu="1400" profile="2"/>
 
@@ -132,10 +128,6 @@ mtuTableEntry attributes:
 
 <!-- Salt -->
     <mtuTableEntry numeric="22803" mtu="1280" profile="2"/>
-
-<!-- T-Mobile A -->
-    <mtuTableEntry numeric="23203" mtu="1280" rat="4"/>
-    <mtuTableEntry numeric="23207" mtu="1280" rat="4"/>
 
 <!-- Hutchison -->
     <mtuTableEntry numeric="23205" mtu="1280" rat="4"/>
@@ -222,8 +214,6 @@ mtuTableEntry attributes:
 <!-- DT -->
     <mtuTableEntry numeric="26201" mtu="1340" profile="2"/>
     <mtuTableEntry numeric="26201" mtu="1340" rat="4"/>
-    <mtuTableEntry numeric="26206" mtu="1340" profile="2"/>
-    <mtuTableEntry numeric="26206" mtu="1340" rat="4"/>
 
 <!-- VF DE -->
     <mtuTableEntry numeric="26202" mtu="1280" profile="2"/>
@@ -242,10 +232,6 @@ mtuTableEntry attributes:
 <!-- Vodafone VDI VoLTE VoWifi -->
     <mtuTableEntry numeric="27201" mtu="1330" profile="2"/>
     <mtuTableEntry numeric="27201" mtu="1330" rat="4"/>
-
-<!-- Siminn -->
-    <mtuTableEntry numeric="27401" mtu="1452" profile="2"/>
-    <mtuTableEntry numeric="27401" mtu="1452" rat="4"/>
 
 <!-- A1 Bulgaria -->
     <mtuTableEntry numeric="28401" mtu="1330" profile="2"/>
@@ -278,7 +264,7 @@ mtuTableEntry attributes:
 
 <!-- FREEDOM Mobile -->
     <mtuTableEntry numeric="302490" mtu="1280" profile="2"/>
-    <mtuTableEntry numeric="302490" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="302490" mtu="1200" rat="4"/>
 
 <!-- Videotron -->
     <mtuTableEntry numeric="302500" mtu="1280" rat="4"/>
@@ -286,9 +272,6 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="302510" mtu="1280" rat="4"/>
     <mtuTableEntry numeric="302520" mtu="1280" rat="4"/>
     <mtuTableEntry numeric="302512" mtu="1280" rat="4"/>
-
-<!-- Saint Pierre et Miquelon Telecom -->
-    <mtuTableEntry numeric="30803" mtu="1300" profile="2"/>
 
 <!-- Sprint and Sprint MVNO (Default : 1422) -->
     <mtuTableEntry numeric="310120" mtu="1422"/>
@@ -500,6 +483,11 @@ mtuTableEntry attributes:
 <!--  Malaysia Digi -->
     <mtuTableEntry numeric="50216" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="50216" mtu="1280" rat="4"/>    
+
+<!--  Telstra Operators -->
+    <mtuTableEntry numeric="50501" mtu="1358" proto="2"/>
+    <mtuTableEntry numeric="50501" mtu="1300" profile="2"/>
+    <mtuTableEntry numeric="50501" mtu="1300" rat="4"/>
 
 <!--  Optus YES -->
     <mtuTableEntry numeric="50502" mtu="1280" profile="2"/>

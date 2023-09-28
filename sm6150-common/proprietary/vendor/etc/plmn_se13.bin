@@ -8,6 +8,8 @@ GR COSMOTE"C-OTE
 20209WIND GR"WIND
 
 20210WIND GR"WIND
+
+20217NOVA GR"NOVA GR
 
 20404vodafone NL"voda NL
 
@@ -67,8 +69,8 @@ Telenor HU"TelenorH
 Telekom HU"THU
 
 21670vodafone HU"voda HU
-
-21803ERONET"ERONET
+
+21803	HT ERONET"HTERONET
 
 21805m:tel"m:tel
 
@@ -170,8 +172,11 @@ Telenor DK"TelenoDK
 23820Telia DK"Telia
 "
 23866Telia-Telenor DK"TT DK
-
-24001Telia SE"Telia
+
+23877
+Telenor DK"TelenoDK
+
+24001TELIA S"TELIA
 
 240023 SE"3 SE
 
@@ -188,7 +193,7 @@ Telenor SE"TelenorS
 
 24201	N Telenor"TELENOR
 
-24202N Telia"N Telia
+24202N NetCom"NetCom
 
 24214N ice"ice
 
@@ -228,7 +233,7 @@ Telenor SE"TelenorS
 
 25001MTS RUS"MTS RUS
 
-25002MegaFon RUS"Megafon
+25002MegaFon RUS"MegaFon
 
 25020Tele2 RU"Tele2
 
@@ -240,7 +245,7 @@ Telenor SE"TelenorS
 "
 25062Tinkoff Mobile"Tinkoff
 
-25099beeline"beeline
+25099Beeline"Beeline
 
 25501VODAFONE"VODAFONE
 
@@ -294,10 +299,6 @@ vodafone P"voda P
 26806MEO"MEO
 
 27001POST"POST
-
-27002MTX Connect"MTXC
-
-27005LOL"LOL
 
 27077L TANGO"TANGO
 
@@ -314,6 +315,8 @@ vodafone P"voda P
 27401	IS SIMINN"SIMINN
 
 27402Vodafone"Vodafone
+
+27404Viking"Viking
 
 27408
 IS OnWaves"OnWaves
@@ -358,8 +361,9 @@ Beeline AM"Beeline
 
 28403
 Vivacom BG"Vivacom
-
-28405	Yettel BG"Yettel
+
+28405
+Telenor BG"Telenor
 
 28601TR TURKCELL"TCELL
 #
@@ -392,8 +396,8 @@ SwisscomFL"Swiss FL
 29502Salt.li"Salt.li
 
 29505FL1"FL1
-
-29701One"One
+
+29701Telenor"Telenor
 
 29702
 Telekom.me"T.me
@@ -538,8 +542,8 @@ SPM AMERIS"AMERIS
 311370GCI"GCI
 
 311480Verizon"Verizon
-
-311530PTCI"PTCI
+
+311530USANW"USANW
 
 311560USA OTZ"OTZ
 
@@ -548,10 +552,10 @@ SPM AMERIS"AMERIS
 311600Limitless Mobile"LMUSA
 
 311630C Spire"C Spire
-$
-311650United Wireless USA"UWC
 
 311660	Metro PCS"MPCS
+$
+311710Northeast Wireless"NEWN
 
 311740TCI"TCI
 "
@@ -579,12 +583,8 @@ NetGenuity"NetGenui
 312870GigSky"GigSky
 
 313070MNSHub"MNSHub
-
-313120	ASM ASTCA"ASTCA
 
 313380OptimERA"OptimERA
-#
-313790Liberty Mobile"Liberty
 
 330110PR Claro"Claro
 "
@@ -629,6 +629,8 @@ NetGenuity"NetGenui
 348570CCT Boatphone"CCTBVI
 
 350000CELLONE"CELLONE
+
+352030DIGICEL"DIGICEL
 
 352110FLOW"FLOW
 
@@ -639,6 +641,8 @@ NetGenuity"NetGenui
 358050DIGICEL"DIGICEL
 
 358110FLOW"FLOW
+
+360070DIGICEL"DIGICEL
 
 360110FLOW"FLOW
 
@@ -1016,8 +1020,6 @@ stc Kuwait"stc
 Mobily-KSA"Mobily
 
 42004Zain KSA"Zain KSA
-
-42009salam mobile"salam
 
 42101SabaFon"SABAFON
 
@@ -1026,8 +1028,6 @@ Mobily-KSA"Mobily
 42202Omantel"Omantel
  
 42203Ooredoo Oman"Ooredoo
-
-42206Vodafone"Vodafone
 
 42402ETISALAT"ETISALAT
 
@@ -1062,8 +1062,6 @@ Cellcom IL"Cellcom
 42702vodafone"VF-QA
 
 42801	Skytel MN"Skytel
-
-42833ONDO"ONDO
 &
 42888MONGOLIA UNITEL LLC"UNTLMN
 
@@ -1088,6 +1086,8 @@ Beeline UZ"Beeline
 43601TCELL"TCELL
 
 43602TCELL"TCELL
+
+43603MegaFon TJK"MegaFon
 
 43604	Babilon-M"Babilon
 
@@ -1110,8 +1110,6 @@ Beeline KG"Beeline
 44050KDDI"KDDI
 
 44051KDDI"KDDI
-
-44054KDDI"KDDI
 $
 45001Samsung Test Bed"Samsung
 
@@ -1186,8 +1184,6 @@ $
 45702ETL MOBILE NETWORK"ETLMNW
 
 45703Unitel"UNITEL
-"
-45707Best Telecom Laos"Best
 
 45708TPLUS"TPLUS
 
@@ -1210,8 +1206,6 @@ CHN-UNICOM"UNICOM
 CHN-UNICOM"UNICOM
 
 46011CHN-CT"CT
-
-46015CHINA BROADNET"CBN
 
 46601Far EasTone"FET
 
@@ -1310,6 +1304,12 @@ Banglalink"BL
 52004TRUE-H"TRUE-H
 
 52005dtac TriNet"dtac
+
+52015
+TOT Mobile"TOT
+
+52047
+TOT Mobile"TOT
 
 52099TRUE-H"TRUE-H
 
@@ -1320,6 +1320,8 @@ Banglalink"BL
 52503SGP-M1"M1
 
 52505StarHub"StarHub
+"
+52507SGP Call Zone"CallZone
 
 52508StarHub"StarHub
 
@@ -1342,8 +1344,6 @@ Banglalink"BL
 53701bmobile"bmobile
 
 53703DIGICEL"DIGICEL
- 
-53704PG VODAFONE"VODAFONE
 
 53901U-CALL"U-CALL
 !
@@ -1383,8 +1383,6 @@ CK KOKANET"KOKANET
 55001FSM Telecom"FSM Tele
 
 55201PalauCel"PalauCel
-
-55299PLW PMCI"PMCI
 
 55401Teletok"TTOK
 
@@ -1882,4 +1880,4 @@ AeroMobile"AeroMob
 
 90146	Telecom26"T26
 
-90150EchoStar Mobile"EML$Published TS.25 Database 23 May 2022
+90150EchoStar Mobile"EML%Published TS.25 Database 07 June 2021
