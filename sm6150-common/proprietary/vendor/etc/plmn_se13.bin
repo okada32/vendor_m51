@@ -77,8 +77,8 @@ Telekom HU"THU
 21890	BH Mobile"BHMOBILE
 
 21901HT HR"HT HR
-
-21902TM HR"TM HR
+
+21902Telemach"TM HR
 
 21910A1 HR"A1 HR
 
@@ -242,8 +242,6 @@ Telenor SE"TelenorS
 25028voda"voda
 
 25035MOTIV"MOTIV
-"
-25062Tinkoff Mobile"Tinkoff
 
 25099Beeline"Beeline
 
@@ -1748,10 +1746,10 @@ TelkomSA-R"Telkom-R
 71403CLARO PA"CLARO PA
 
 71404DIGICEL"DIGICEL
-
-714020Tigo"Tigo
+
+714020Movistar"Movistar
 
-71606Movistar"Movistar
+71606MOVISTAR"MOVISTAR
 
 71610	CLARO PER"ClaroPER
 
@@ -1880,4 +1878,4 @@ AeroMobile"AeroMob
 
 90146	Telecom26"T26
 
-90150EchoStar Mobile"EML%Published TS.25 Database 07 June 2021
+90150EchoStar Mobile"EML$Published TS.25 Database 10 May 2021
