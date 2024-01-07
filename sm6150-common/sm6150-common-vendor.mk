@@ -836,6 +836,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm6150-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/sm6150-common/proprietary/vendor/lib64/vendor.samsung.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.health@2.0.so \
     vendor/samsung/sm6150-common/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
+    vendor/samsung/sm6150-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
+    vendor/samsung/sm6150-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/samsung/sm6150-common/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.thermal@1.0.so
 
 PRODUCT_PACKAGES += \
@@ -845,15 +847,15 @@ PRODUCT_PACKAGES += \
     libfm-hci \
     vendor.qti.hardware.fm@1.0 \
     TimeService \
-	CneApp \
+    CneApp \
     IWlanService \
-	ImsRcsService \
+    ImsRcsService \
     QtiTelephony \
     QtiTelephonyService \
-	dpmserviceapp \
+    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-	com.qti.dpmframework \
+    com.qti.dpmframework \
     dpmapi \
     qcrilhook \
     vendor.qti.ims.connection-V1.0-java \
