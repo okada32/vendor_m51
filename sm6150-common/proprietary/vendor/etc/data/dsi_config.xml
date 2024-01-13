@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
      DSI Module configuration XML file
-<<<<<<< HEAD
-<<<<<<< HEAD
-     Copyright (c) 2013, 2015, 2017-2020 Qualcomm Technologies, Inc.
-=======
-     Copyright (c) 2013, 2015, 2017-2019 Qualcomm Technologies, Inc.
->>>>>>> 654ecf0 (r3q-vendor: Port IMS/RIL stack from Oneplus 7T)
-=======
      Copyright (c) 2013, 2015, 2017-2021 Qualcomm Technologies, Inc.
->>>>>>> 89ac857 (r3q-vendor: Import vendor.qti.ims.factory-V2_1-java)
      All Rights Reserved.
      Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
